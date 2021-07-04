@@ -1,0 +1,48 @@
+name: readtheplaque
+env_file:
+  - .local.env
+  - .env
+services:
+  api:
+    type: node:custom
+    build:
+      - npm i -g nodemon
+    command: nodemon -w packages -w apps --ignore **/*.ttl --ignore **/*.env.json --ext ts,js --exec npm --prefix apps/readtheplaque --node-options --inspect=0.0.0.0:8889 --inspect start
+    ssl: true
+    overrides:
+      image: node:14
+      environment:
+        TS_NODE_TRANSPILE_ONLY: "true"
+        DEBUG: readtheplaque*,hydra*,hydra-box*,labyrinth*,SPARQL,-labyrinth:request:headers
+    scanner: false
+  store:
+    type: compose
+    volumes:
+      agdata:
+      agconfig:
+    run:
+      - agtool repos create http://roman:mars@127.0.0.1:10035/repositories/readtheplaque
+    services:
+      image: franzinc/agraph
+      command: /entrypoint.sh
+      shm_size: 1g
+      environment:
+        AGRAPH_SUPER_USER: roman
+        AGRAPH_SUPER_PASSWORD: mars
+        ENABLE_DATA_WRITE: "true"
+        ENABLE_UPDATE: "true"
+        ENABLE_UPLOAD: "true"
+      volumes:
+        - agdata:/agraph/data
+        - agconfig:/agraph/etc
+
+tooling:
+  agtool:
+    service: store
+    cmd: agtool
+
+proxy:
+  store:
+    - db.readtheplaque.lndo.site:10035
+  api:
+    - readtheplaque.lndo.site:8888
