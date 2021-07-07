@@ -1,0 +1,18 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix api: <https://plaque.maze.link/vocab#>
+PREFIX schema: <http://schema.org/>
+PREFIX hydra: <http://www.w3.org/ns/hydra/core#>
+
+<>
+  a hydra:Class ;
+  rdfs:subClassOf api:Plaque ;
+  hydra:title "A plaque, displayed somewhere in the world for others to see" ;
+  hydra:supportedProperty
+    [
+      hydra:property api:images ;
+      hydra:supportedOperation
+        [
+          hydra:method "POST" ;
+        ] ;
+    ] ;
+.
