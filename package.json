@@ -9,7 +9,7 @@
     "prepare": "husky install",
     "lint": "eslint . --ext .ts --quiet --ignore-path .gitignore",
     "test:e2e": "docker-compose run --rm e2e-tests --",
-    "bootstrap": "cd apps/readtheplaque; yarn run bootstrap"
+    "bootstrap": "wsrun -p always-read-the-plaque -c bootstrap"
   },
   "repository": "git@github.com:hypermedia-app/always-read-the-plaque.git",
   "author": "tpluscode <awesome@hypermedia.app>",
@@ -29,7 +29,8 @@
     "eslint-plugin-node": "^11.1.0",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
-    "standard": "^16.0.3"
+    "standard": "^16.0.3",
+    "wsrun": "^5.2.4"
   },
   "resolutions": {
     "rdf-loaders-registry": "0.3.0"
