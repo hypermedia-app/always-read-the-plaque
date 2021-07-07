@@ -1,6 +1,7 @@
 PREFIX schema: <http://schema.org/>
 <>
   a </api/class/Plaque> ;
+  schema:name "Red Rocks Amphitheatre" ;
   schema:text """**RED ROCKS AMPHITHEATRE**
 PRINCIPAL CONSTRUCTION BY THE CIVILIAN CONSERVATION
 CORPS COMPANY 1848, SP-13C MT. MORRISON, CO.
