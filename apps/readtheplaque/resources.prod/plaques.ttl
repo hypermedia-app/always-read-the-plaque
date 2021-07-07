@@ -5,8 +5,17 @@ PREFIX hydra: <http://www.w3.org/ns/hydra/core#>
 <>
   a hydra:Collection ;
   hydra:memberAssertion
-  [
-    hydra:property rdf:type ;
-    hydra:object api:Plaque ;
-  ]
+    [
+      hydra:property rdf:type ;
+      hydra:object api:Plaque ;
+    ] ;
+  hydra:search
+    [
+      hydra:template "{?page}" ;
+      hydra:mapping
+        [
+          hydra:variable "page" ;
+          hydra:property hydra:pageIndex ;
+        ] ;
+    ]
 .
