@@ -14,5 +14,14 @@ PREFIX hydra: <http://www.w3.org/ns/hydra/core#>
         [
           hydra:method "POST" ;
         ] ;
-    ] ;
+    ],
+    [
+      hydra:property schema:contributor ;
+    ],
+    [
+      hydra:property schema:location ;
+    ],
+    [
+      hydra:property schema:text ;
+    ];
 .

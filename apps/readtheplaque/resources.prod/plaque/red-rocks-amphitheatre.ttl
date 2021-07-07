@@ -1,0 +1,32 @@
+PREFIX schema: <http://schema.org/>
+<>
+  a </api/class/Plaque> ;
+  schema:text """**RED ROCKS AMPHITHEATRE**
+PRINCIPAL CONSTRUCTION BY THE CIVILIAN CONSERVATION
+CORPS COMPANY 1848, SP-13C MT. MORRISON, CO.
+1936-1941
+DEDICATED AS A MEMORIAL TO ALL WHO SERVED AT
+MT. MORRISON AND TO THE 3 MILLION WHO SERVED IN
+THE CCC NATION-WIDE, 1933-1942. THE CCC LEFT ITS
+HERITAGE IN THE PRESERVATION OF AMERICAS NATURAL
+RESOURCES FOR THE ENJOYMENT BY ALL GENERATIONS.
+ERECTED BY
+CIVILIAN CONSERVATION CORPS ALUMNI CHAPTER 7
+IN COOPERATION WITH THE CITY AND COUNTY OF DENVER
+JUNE 4, 1988""" ;
+  schema:contributor
+    [
+      a schema:Person ;
+      schema:name "John Bradley JEB" ;
+    ] ;
+  schema:location
+    [
+      a schema:Place ;
+      schema:geo
+        [
+          a schema:GeoCoordinates ;
+          schema:latitude "39.666190" ;
+          schema:longitude "-105.207459" ;
+        ] ;
+    ] ;
+.
