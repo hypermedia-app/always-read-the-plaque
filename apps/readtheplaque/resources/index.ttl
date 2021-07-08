@@ -1,7 +1,16 @@
-@prefix hydra: <http://www.w3.org/ns/hydra/core#> .
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix api: <https://plaque.maze.link/vocab#>
+prefix hydra: <http://www.w3.org/ns/hydra/core#>
 
 <>
   a hydra:Resource ;
   hydra:collection </plaques> ;
 .
 
+</plaques>
+  hydra:memberAssertion
+    [
+      hydra:property rdf:type ;
+      hydra:object api:Plaque ;
+    ] ;
+.
