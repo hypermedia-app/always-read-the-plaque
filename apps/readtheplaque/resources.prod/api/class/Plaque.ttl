@@ -10,10 +10,6 @@ PREFIX hydra: <http://www.w3.org/ns/hydra/core#>
   hydra:supportedProperty
     [
       hydra:property api:images ;
-      hydra:supportedOperation
-        [
-          hydra:method "POST" ;
-        ] ;
     ],
     [
       hydra:property schema:contributor ;

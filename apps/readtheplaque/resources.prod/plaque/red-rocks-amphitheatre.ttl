@@ -1,4 +1,6 @@
 PREFIX schema: <http://schema.org/>
+prefix api: <https://plaque.maze.link/vocab#>
+
 <>
   a </api/class/Plaque> ;
   schema:name "Red Rocks Amphitheatre" ;
@@ -30,4 +32,5 @@ JUNE 4, 1988""" ;
           schema:longitude "-105.207459" ;
         ] ;
     ] ;
+  api:images <images> ;
 .

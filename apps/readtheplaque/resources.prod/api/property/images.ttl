@@ -1,0 +1,12 @@
+prefix api: <https://plaque.maze.link/vocab#>
+PREFIX schema: <http://schema.org/>
+PREFIX hydra: <http://www.w3.org/ns/hydra/core#>
+
+api:images
+  hydra:supportedOperation
+    [
+      hydra:method "POST" ;
+      hydra:title "Add an image" ;
+      hydra:expects schema:ImageObject ;
+    ] ;
+.
