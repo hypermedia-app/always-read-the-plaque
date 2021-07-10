@@ -1,7 +1,11 @@
 prefix api: <https://plaque.maze.link/vocab#>
 prefix hydra: <http://www.w3.org/ns/hydra/core#>
+prefix query: <https://hypermedia.app/query#>
 
 <> a hydra:ApiDocumentation ;
 	hydra:entrypoint <../> .
 
 api:images a hydra:Link .
+
+hydra:Resource
+  query:include hydra:collection .

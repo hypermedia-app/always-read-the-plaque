@@ -325,15 +325,15 @@
     rdf-express-node-factory "^1.1"
     rdf-ext "^1.3.1"
 
-"@hydrofoil/knossos@^0.2.0", "@hydrofoil/knossos@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@hydrofoil/knossos/-/knossos-0.2.1.tgz#8b4bbb869338ed075f657bbdd622c3bafd02129f"
-  integrity sha512-16EEB0l2WnS5cAjBdVZQbhEbcslGxiMmtOKZ7d9jrHYsBlc+Ijl7WPWbeeF2+q0vyXQrbDJ5yyQqoUU1wd4eDQ==
+"@hydrofoil/knossos@^0.2.0", "@hydrofoil/knossos@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@hydrofoil/knossos/-/knossos-0.2.2.tgz#1dbc2803dbb96e01266b5cf1736e021f3705c8e3"
+  integrity sha512-0exLiSyeH3qdywU4guJUK3Z94B0aWVnTYwLqY37K68xZ4dFnbJZIuLQhorMMTbyZQEqWKJBYXzSjH7jdNUiIfQ==
   dependencies:
     "@fcostarodrigo/walk" "^5.0.1"
     "@graphy/content.trig.read" "^4.3.3"
     "@hydrofoil/knossos-events" "^0.2.1"
-    "@hydrofoil/labyrinth" "^0.5.4"
+    "@hydrofoil/labyrinth" "^0.6.0"
     "@hydrofoil/vocabularies" "^0.1.7"
     "@rdfine/hydra" "^0.6.6"
     "@rdfjs-elements/formats-pretty" "^0.3.2"
@@ -364,10 +364,10 @@
     sparql-http-client "^2.2.3"
     stream-to-promise "^3.0.0"
 
-"@hydrofoil/labyrinth@^0.5.4":
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/@hydrofoil/labyrinth/-/labyrinth-0.5.4.tgz#89ba5d99f6e4e87a7e9415e05df065d2be2bdb3c"
-  integrity sha512-HvxJX6SRF9MVG5wGoNetE5nXtKMDR4KAQccJCdnvrKMSww4Ntrrnp+3oQnPHG/GsP6Um3iCD6A1NCvMpL+2ikA==
+"@hydrofoil/labyrinth@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@hydrofoil/labyrinth/-/labyrinth-0.6.0.tgz#cae4645b5ae0a94f1e16bf87d49ee72c46fb80a5"
+  integrity sha512-2KLzFPSka5S3CMtjYhKlNxMW+atqa7rid4oSxdC8cyfROFe+WxeYhcYUB1i/9YS85c31vMc+y5kaUTj7NLa/tg==
   dependencies:
     "@hydrofoil/vocabularies" "^0.1.6"
     "@rdfine/hydra" "^0.6.6"

@@ -10,7 +10,7 @@
     "start": "knossos-ts serve http://db.readtheplaque.lndo.site:10035/repositories/readtheplaque?infer=true --name readtheplaque --codePath ./lib --user roman --password mars"
   },
   "dependencies": {
-    "@hydrofoil/knossos": "^0.2.1"
+    "@hydrofoil/knossos": "^0.2.2"
   },
   "devDependencies": {
     "@hydrofoil/talos": "^0.3.0",
