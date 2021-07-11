@@ -308,12 +308,12 @@
   dependencies:
     readable-stream "^3.6.0"
 
-"@hydrofoil/knossos-events@^0.2.1":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@hydrofoil/knossos-events/-/knossos-events-0.2.2.tgz#67ad22300192dd46c15b081a06064d7523c52589"
-  integrity sha512-cKB7eIAHu994VlGNYFVfJdLwxUxcv+8gEPTacsErMMPBKQGOwWeh1U6qsFSeDQTFaSMQnBsERFhUuxxSDp0U/Q==
+"@hydrofoil/knossos-events@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@hydrofoil/knossos-events/-/knossos-events-0.2.3.tgz#e89c81d6510b8420d5a7ac366769e9c2d9c73a80"
+  integrity sha512-wqHesgKCUqMuuMCktp6aPhnDMW5JSqg/ClI2ylzUD4eQeSt5IJ09s5wscm8sad5WD9UIWWmTrE4O1MjEZZewJA==
   dependencies:
-    "@hydrofoil/vocabularies" "^0.1.0"
+    "@hydrofoil/vocabularies" "^0.2.0"
     "@rdfine/as" "^0.2.1"
     "@rdfjs/namespace" "^1.1.0"
     "@tpluscode/rdf-ns-builders" "^1.0.0"
@@ -325,16 +325,16 @@
     rdf-express-node-factory "^1.1"
     rdf-ext "^1.3.1"
 
-"@hydrofoil/knossos@^0.2.0", "@hydrofoil/knossos@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@hydrofoil/knossos/-/knossos-0.2.2.tgz#1dbc2803dbb96e01266b5cf1736e021f3705c8e3"
-  integrity sha512-0exLiSyeH3qdywU4guJUK3Z94B0aWVnTYwLqY37K68xZ4dFnbJZIuLQhorMMTbyZQEqWKJBYXzSjH7jdNUiIfQ==
+"@hydrofoil/knossos@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@hydrofoil/knossos/-/knossos-0.2.3.tgz#d08d66f72fee4b623babea61ac6e9934c5c8c6a6"
+  integrity sha512-q2xiEgtd6q+nP9bpRteKkJExS/4yxnUiB5CZl2cFyAAtS7tvRQtfDihY1cDkXlBMsxwX3U8iBLi3U7FuZDa1cA==
   dependencies:
     "@fcostarodrigo/walk" "^5.0.1"
     "@graphy/content.trig.read" "^4.3.3"
-    "@hydrofoil/knossos-events" "^0.2.1"
-    "@hydrofoil/labyrinth" "^0.6.0"
-    "@hydrofoil/vocabularies" "^0.1.7"
+    "@hydrofoil/knossos-events" "^0.2.3"
+    "@hydrofoil/labyrinth" "^0.6.1"
+    "@hydrofoil/vocabularies" "^0.2.0"
     "@rdfine/hydra" "^0.6.6"
     "@rdfjs-elements/formats-pretty" "^0.3.2"
     "@rdfjs/namespace" "^1.1.0"
@@ -364,12 +364,12 @@
     sparql-http-client "^2.2.3"
     stream-to-promise "^3.0.0"
 
-"@hydrofoil/labyrinth@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@hydrofoil/labyrinth/-/labyrinth-0.6.0.tgz#cae4645b5ae0a94f1e16bf87d49ee72c46fb80a5"
-  integrity sha512-2KLzFPSka5S3CMtjYhKlNxMW+atqa7rid4oSxdC8cyfROFe+WxeYhcYUB1i/9YS85c31vMc+y5kaUTj7NLa/tg==
+"@hydrofoil/labyrinth@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@hydrofoil/labyrinth/-/labyrinth-0.6.1.tgz#61775a301a94c03d4d42636f1c828adc49137a19"
+  integrity sha512-UykXcsrDYlndpSEgWONCqRyjImUhkWdvz9Iyb1nlVMyIZ49fFu42AYupwIA10+cTzpHQyCu4sO+d9Wh134jbbA==
   dependencies:
-    "@hydrofoil/vocabularies" "^0.1.6"
+    "@hydrofoil/vocabularies" "^0.2.0"
     "@rdfine/hydra" "^0.6.6"
     "@rdfjs/data-model" "^1.2"
     "@rdfjs/term-map" "^1.0.0"
@@ -396,14 +396,14 @@
     sparql-http-client "^2.2.2"
     stream-to-array "^2.3.0"
 
-"@hydrofoil/talos@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@hydrofoil/talos/-/talos-0.3.0.tgz#30a744e7257522272071e8be75e4712968b7099b"
-  integrity sha512-KH6IfN4gSDlQ4olxRqGPbXbv+pHqq/ELq8yTEMjXXDlT7/Kt6ubvQGoVx8Vf8vPZCnAi36ADW9vjh0yK6u4oLg==
+"@hydrofoil/talos@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@hydrofoil/talos/-/talos-0.3.1.tgz#86ad046fa89690f1a2f49e21aff4403b72966574"
+  integrity sha512-sO04ttn4RIG17jwMY1c/siOhiukWKk064Vvw/VPHJC+4yAq0ReuTco/YvbimJZXJExAMEIt1yHs9BW3Pk80IsQ==
   dependencies:
     "@fcostarodrigo/walk" "^5.0.1"
-    "@hydrofoil/knossos" "^0.2.0"
-    "@hydrofoil/vocabularies" "^0.1.5"
+    "@hydrofoil/knossos" "^0.2.3"
+    "@hydrofoil/vocabularies" "^0.2.0"
     "@rdfjs/formats-common" "^2.1.0"
     "@tpluscode/rdf-ns-builders" "^1.0.0"
     "@tpluscode/rdf-string" "^0.2.24"
@@ -417,10 +417,10 @@
     rdf-ext "^1.3.1"
     sparql-http-client "^2.2.3"
 
-"@hydrofoil/vocabularies@^0.1.0", "@hydrofoil/vocabularies@^0.1.5", "@hydrofoil/vocabularies@^0.1.6", "@hydrofoil/vocabularies@^0.1.7":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@hydrofoil/vocabularies/-/vocabularies-0.1.8.tgz#1dd24c188c03a313393d2d4b1b64be3d7e4ea938"
-  integrity sha512-F3txxjtPrW7no5bDjUfdinXE/wns7VbKtudhgQdcvFOEqMZhSxySuJyoVkFwjx62znzXoJ9cDovQSyiS8VJRAQ==
+"@hydrofoil/vocabularies@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@hydrofoil/vocabularies/-/vocabularies-0.2.0.tgz#36ab95db69d72a709b7f7a002f0f674eb8d8cc0d"
+  integrity sha512-7Nckyo2lsG7F9EpxgJuT7In6PIOo/ze5Dxs5rCS2LsGIW0DeCuCfdgoP5zGpUkgVfYZOKkrpJCXLkePLTRionA==
   dependencies:
     "@rdf-esm/namespace" "^0.5.3"
     "@rdfjs/parser-n3" "^1.1.4"
